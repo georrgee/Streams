@@ -15,6 +15,7 @@
 		3695300F252396FA00B5BC3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3695300D252396FA00B5BC3D /* LaunchScreen.storyboard */; };
 		3695301A252396FA00B5BC3D /* StreamsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36953019252396FA00B5BC3D /* StreamsTests.swift */; };
 		36953025252396FA00B5BC3D /* StreamsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36953024252396FA00B5BC3D /* StreamsUITests.swift */; };
+		3695303625239F2C00B5BC3D /* BlurEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3695303525239F2C00B5BC3D /* BlurEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		36953020252396FA00B5BC3D /* StreamsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StreamsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36953024252396FA00B5BC3D /* StreamsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamsUITests.swift; sourceTree = "<group>"; };
 		36953026252396FA00B5BC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3695303525239F2C00B5BC3D /* BlurEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				3695300D252396FA00B5BC3D /* LaunchScreen.storyboard */,
 				36953010252396FA00B5BC3D /* Info.plist */,
 				3695300A252396FA00B5BC3D /* Preview Content */,
+				3695303525239F2C00B5BC3D /* BlurEffect.swift */,
 			);
 			path = Streams;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36953003252396F700B5BC3D /* AppDelegate.swift in Sources */,
+				3695303625239F2C00B5BC3D /* BlurEffect.swift in Sources */,
 				36953005252396F700B5BC3D /* SceneDelegate.swift in Sources */,
 				36953007252396F700B5BC3D /* ContentView.swift in Sources */,
 			);
